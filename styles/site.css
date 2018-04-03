@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC');
+
+html {
+	height: 100%;
+}
+body {
+	font-family:'Spectral SC', serif;
+	font-size: 16px;
+	height: 100%;
+	width: 100%;
+}
+header {
+	background-image:url(http://jeitobaiano.atarde.uol.com.br/wp-content/uploads/2009/07/maria-quiteria-monumen010708mam45.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20% 20%;
+	min-height: 100%;
+	padding: 600px 400px 0 0;
+}
+.header-position {
+	padding: 0 0 0 0;
+	margin: 0 400px 0 0px;
+}
+.col-xs-2 {
+	padding-right: 350px;
+}
+header h3 {
+	font-size:1.5em;
+	color:#fff;
+	font-weight:300;
+}
+header h3.quote {
+	background-color: #3a923a;
+	display:inline;
+	line-height:38px;
+}
+header h3.name {
+	font-style:italic;
+	color:#3A923A;
+	background-color: #fcf4e8;
+	text-align: right;
+}
+#intro {
+	padding:60px 0;
+	margin-bottom:80px;
+	min-height:100%;
+}
+#intro h1 {
+	color:#3A923A;
+	margin-bottom: 100px;
+}
+#intro h1 small {
+	font-size:0.4em;
+	color: #3A923A;
+	text-transform:uppercase;
+}
+#quiteriapb {
+	width: auto;
+	height: auto;
+	display: inline-block;
+}
+
+#legacy {
+	background-image:url(https://cdn-images-1.medium.com/max/1910/1*kumMI4PY1a0oO0BGDuqivA.jpeg);
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	min-height:100%;
+	padding: 280px 0;
+}
+#legacy h1 {
+	text-align:center;
+	color:#3A923A;
+	font-weight:300px;
+}
+iframe {
+	margin: auto 50% auto 18% ;
+}
+#woman {
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size:cover;
+	min-height:100%;
+	padding:280px 0;
+}
+footer {
+	background-color: rgba(0,0,0,0.8);
+}
+footer h1{
+	font-size:0.9em;
+	color:#fff;
+	text-align:center;
+}
+footer a{
+	color:#fff;
+}
+
+footer a:hover{
+	color:#fff;
+	background-color:rgba(81, 69, 107,0.9);
+	text-decoration:none;
+}
+
+
+
+
+@media screen and (max-width:900px){
+
+	header{
+		height:450px;
+		padding-top:76px;
+	}
+
+	header h3 {
+		font-size:2em;
+	}
+	header h3.quote {
+		line-height:45px;
+	}
+
+	#intro {
+		padding:0 10px;
+		margin-bottom:30px;
+	}
+
+	#legacy {
+		padding-top:50px;
+	}
+}
+} /* max-width 900 px */
+
+
+@media screen and (max-width:560px){
+
+	.mobile_hide {
+		display:none;
+	}
+
+	nav h4 {
+		font-weight:300;
+		font-size:16px;
+		margin: 16px 10px;
+	}
+
+	h1 {
+		font-size:2.5em;
+		text-align:center;
+		margin-top:20px;
+	}
+
+	#intro .profile {
+		display:block;
+		margin:80px auto 0;
+	}
+
+	#legacy {
+		padding-top:30px;
+	}
+
+} /* max-width 600 px */

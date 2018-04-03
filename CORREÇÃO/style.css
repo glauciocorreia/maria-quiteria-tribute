@@ -1,0 +1,40 @@
+html {
+	height: 100%;
+}
+body {
+	font-family:'Roboto', sans-serif;
+	font-size: 16px;
+	height: 100%;
+	width: 100%;
+}
+header {
+	background-image:url(http://jeitobaiano.atarde.uol.com.br/wp-content/uploads/2009/07/maria-quiteria-monumen010708mam45.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20% 20%;
+    min-height: 100%;
+    padding: 600px 300px 400px 0;
+    
+}
+header h3 {
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 300;
+    
+}
+.full-quote {
+    margin: 0 0 0 5%;
+} 
+.quote {
+    background-color: rgba(58, 146, 58, 0.8);
+    line-height: 38px;
+
+}
+.name {
+    font-style: italic;
+    color: #3a923a;
+    background-color: rgba(252, 244, 232, 0.8);
+    font-size: 1em;
+    text-align: center;
+}
+
