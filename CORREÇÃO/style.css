@@ -13,28 +13,27 @@ header {
 	background-size: cover;
 	background-position: 20% 20%;
     min-height: 100%;
-    padding: 600px 300px 400px 0;
-    
+    min-width: 100%;
+    padding: 0 10% 0 0; 
 }
 header h3 {
     font-size: 1.5em;
     color: #fff;
     font-weight: 300;
-    
 }
 .full-quote {
     margin: 0 0 0 5%;
+    padding: 60% 0 0 0;
 } 
 .quote {
     background-color: rgba(58, 146, 58, 0.8);
     line-height: 38px;
-
 }
 .name {
     font-style: italic;
     color: #3a923a;
     background-color: rgba(252, 244, 232, 0.8);
     font-size: 1em;
+    font-weight: bold;
     text-align: center;
 }
-
