@@ -7,6 +7,9 @@ body {
 	height: 100%;
 	width: 100%;
 }
+
+/*-------------------------------- HEADER --------------------------------*/
+
 header {
 	background-image:url(http://jeitobaiano.atarde.uol.com.br/wp-content/uploads/2009/07/maria-quiteria-monumen010708mam45.jpg);
 	background-repeat: no-repeat;
@@ -33,7 +36,34 @@ header h3 {
     font-style: italic;
     color: #3a923a;
     background-color: rgba(252, 244, 232, 0.8);
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: bold;
     text-align: center;
 }
+
+/*-------------------------------- FIM HEADER --------------------------------*/
+
+/*-------------------------------- INTRO --------------------------------*/
+
+#intro {
+    height: 100%;
+    width: 100%;
+    margin: 1% 0 1% 0;
+}
+#intro h1 {
+    color: #3a923a;
+    margin-bottom: 6%;
+}
+#intro h1 small {
+    font-size: 0.4em;
+    text-transform: uppercase;
+}
+#quiteriabw {
+    display: inline-block;
+    width: 100%;
+    height: 70%;
+    margin: auto;
+    box-shadow: 5px 3px 2px rgba(0,0,0,0.2);
+}
+
+/*-------------------------------- FIM INTRO --------------------------------*/
